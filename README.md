@@ -9,8 +9,9 @@
 **Description:**
 Learning basic assembly language syntax and program structure.
 
-**Screenshot:**
+**Screenshots:**
 ![Task 1 Output](docs/images/task1_output.png.png)
+![Task 1.2 Output](docs/images/task1.2_output.png.png)
 
 ### Task 2: Array Operations
 **Files:**
@@ -18,12 +19,21 @@ Learning basic assembly language syntax and program structure.
 - `src/task2_2.asm` - Array element summation
 - `src/task2_3.asm` - Array range summation
 
-**Code Example (task2_3.asm):**
-```asm
-mov ecx, [start_index]
-mov eax, 0
-sum_loop:
-    add eax, [ebx + ecx*4]
-    inc ecx
-    cmp ecx, [end_index]
-    jle sum_loop
+**Screenshots:**
+![Task 2.1 Output](docs/images/task2.1output.png.png)
+![Task 2.2 Output](docs/images/task2.2_output.png.png)
+![Task 2.3 Output](docs/images/task2.3output.png.png)
+
+### Task 3: Makefile Automation
+**File:** `Makefile`
+
+**Description:**
+Automated build system using Makefile.
+
+**Build Commands:**
+```bash
+make all        # Build all programs
+make task2_3    # Build specific program
+make clean      # Clean build files
+**Screenshots:**
+![Task 3 Output](docs/images/task3_output.png.png)
