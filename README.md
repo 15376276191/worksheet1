@@ -30,6 +30,9 @@ Learning basic assembly language syntax and program structure.
 **Description:**
 Automated build system using Makefile.
 
+**Screenshots**
+![Task 3 output](docs/images/task3_output.png.png)O
+
 **Build Commands:**
 ```bash
 make all        # Build all programs
