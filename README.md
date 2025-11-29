@@ -35,6 +35,3 @@ Automated build system using Makefile.
 make all        # Build all programs
 make task2_3    # Build specific program
 make clean      # Clean build files
-**Screenshot:**
-![Task 3 Output](docs/images/task3_output.png.png)
-
